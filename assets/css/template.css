@@ -104,12 +104,12 @@ a {text-decoration: none;}
 
 .border:hover{
     border: solid 2px hsl(300, 69%, 71%);
-    
 }
 
-.icon:hover{
-    color: hsl(300, 69%, 71%) ;
+.border:hover .icon{
+    color:hsl(300, 69%, 71%);
 }
+
 
 
 @media (max-width: 1024px){
